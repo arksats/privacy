@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Arksat Wallet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+            min-height: 100vh;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #00F0FF;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #0D0D0D;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .last-updated {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            color: #0D0D0D;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h3 {
+            font-size: 1.3em;
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        
+        .important {
+            background: #f8d7da;
+            padding: 15px;
+            border-left: 4px solid #dc3545;
+            margin: 20px 0;
+        }
+        
+        .contact {
+            background: #d1ecf1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        a {
+            color: #00F0FF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Arksat Wallet Chrome Extension</p>
+            <p class="last-updated">Last Updated: December 22, 2025</p>
+        </header>
+
+        <section>
+            <h2>Overview</h2>
+            <p>Arksat Wallet is committed to protecting your privacy. This privacy policy explains how we handle your data when you use our Chrome extension.</p>
+            
+            <div class="highlight">
+                <strong>Key Point:</strong> We do not collect, transmit, or share any of your personal data. All wallet data is stored locally on your device.
+            </div>
+        </section>
+
+        <section>
+            <h2>Data Collection</h2>
+            <h3>What We DO NOT Collect</h3>
+            <ul>
+                <li>Personal information (name, email, phone number, etc.)</li>
+                <li>Browsing history or activity</li>
+                <li>IP addresses or location data</li>
+                <li>Analytics or usage statistics</li>
+                <li>Private keys or mnemonic phrases</li>
+                <li>Transaction details or wallet balances</li>
+                <li>Any data from connected dApps</li>
+            </ul>
+
+            <h3>What We DO Store (Locally Only)</h3>
+            <p>The following data is stored exclusively in Chrome's encrypted local storage on your device:</p>
+            <ul>
+                <li><strong>Encrypted wallet data:</strong> Private keys and mnemonic phrases (encrypted with your password)</li>
+                <li><strong>User settings:</strong> Language preference, network selection, auto-lock timer</li>
+                <li><strong>Transaction cache:</strong> Local cache of your transaction history for faster loading</li>
+                <li><strong>Connected sites:</strong> List of dApps you've connected to (for permission management)</li>
+            </ul>
+            
+            <p><strong>Important:</strong> This data never leaves your device and is never transmitted to our servers or any third parties.</p>
+        </section>
+
+        <section>
+            <h2>Third-Party Services</h2>
+            <p>Arksat Wallet connects to the following external services to provide wallet functionality:</p>
+            
+            <h3>Blockchain & Price Data</h3>
+            <ul>
+                <li><strong>mempool.space:</strong> Bitcoin blockchain data and transaction status</li>
+                <li><strong>CoinGecko API:</strong> Real-time BTC/USD price information</li>
+            </ul>
+
+            <h3>Ark Protocol Services</h3>
+            <ul>
+                <li><strong>arkade.sh:</strong> Ark Protocol Layer 2 transaction processing</li>
+                <li><strong>boltz.exchange:</strong> Lightning Network atomic swaps</li>
+            </ul>
+
+            <p>These services may have their own privacy policies. We recommend reviewing them:</p>
+            <ul>
+                <li><a href="https://mempool.space/about" target="_blank">Mempool.space Privacy</a></li>
+                <li><a href="https://www.coingecko.com/en/privacy" target="_blank">CoinGecko Privacy Policy</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Chrome Permissions</h2>
+            <p>Arksat Wallet requests the following Chrome permissions:</p>
+
+            <h3>storage</h3>
+            <p>Used to store encrypted wallet data locally in Chrome's secure storage.</p>
+
+            <h3>alarms</h3>
+            <p>Used to schedule automatic VTXO renewal checks to protect your funds.</p>
+
+            <h3>notifications</h3>
+            <p>Used to notify you of important wallet events (VTXO expiration, auto-renewal completion, etc.).</p>
+
+            <h3>activeTab & scripting</h3>
+            <p>Used to enable dApp integration by injecting the wallet provider API into web pages.</p>
+
+            <h3>Host Permissions</h3>
+            <p>Access to specific API endpoints (listed above) and all websites for dApp integration. We only inject the wallet API and do not read or modify webpage content.</p>
+        </section>
+
+        <section>
+            <h2>dApp Integration</h2>
+            <p>When you connect Arksat Wallet to a decentralized application (dApp):</p>
+            <ul>
+                <li>You must explicitly approve each connection</li>
+                <li>You must confirm every transaction</li>
+                <li>You can view and disconnect connected sites anytime in Settings</li>
+                <li>We do not track which dApps you connect to</li>
+                <li>We do not monitor your dApp activity</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Data Security</h2>
+            <p>We implement the following security measures:</p>
+            <ul>
+                <li><strong>Encryption:</strong> All sensitive data (private keys, mnemonic phrases) is encrypted using AES-256-GCM with PBKDF2 key derivation (100,000 iterations)</li>
+                <li><strong>Password Protection:</strong> Your password is hashed using SHA-256 and never stored in plain text</li>
+                <li><strong>Auto-Lock:</strong> Wallet automatically locks after a period of inactivity (configurable from 30 seconds to 4 hours)</li>
+                <li><strong>Local Storage Only:</strong> All data remains on your device in Chrome's encrypted storage</li>
+            </ul>
+
+            <div class="important">
+                <strong>Important:</strong> You are responsible for keeping your password and mnemonic phrase secure. We cannot recover your wallet if you lose them. Never share your mnemonic phrase or password with anyone.
+            </div>
+        </section>
+
+        <section>
+            <h2>User Rights</h2>
+            <p>You have complete control over your data:</p>
+            <ul>
+                <li><strong>Access:</strong> All your data is stored locally and accessible only to you</li>
+                <li><strong>Export:</strong> You can export your mnemonic phrase anytime from Settings</li>
+                <li><strong>Delete:</strong> You can clear all wallet data from Settings or by uninstalling the extension</li>
+                <li><strong>Portability:</strong> Your mnemonic phrase can be imported into any BIP39-compatible wallet</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>Arksat Wallet is not intended for use by children under 13 years of age. We do not knowingly collect data from children.</p>
+        </section>
+
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>We may update this privacy policy from time to time. Changes will be reflected in the "Last Updated" date at the top of this page. Continued use of Arksat Wallet after changes constitutes acceptance of the updated policy.</p>
+        </section>
+
+        <section>
+            <h2>Disclaimer</h2>
+            <div class="important">
+                <p><strong>Use at Your Own Risk:</strong> Arksat Wallet is experimental software. While we implement security best practices, we cannot guarantee absolute security. You are responsible for:</p>
+                <ul>
+                    <li>Keeping your password and mnemonic phrase secure</li>
+                    <li>Verifying transaction details before confirming</li>
+                    <li>Testing with small amounts first</li>
+                    <li>Understanding the risks of cryptocurrency</li>
+                </ul>
+                <p>The developers are not responsible for any loss of funds.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>联系我们</h2>
+            <p>如果您对本隐私政策或 Arksat Wallet 有任何疑问，请联系我们：</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:arksatwallet@gmail.com">arksatwallet@gmail.com</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Arksat Wallet. Built for the Bitcoin Layer 2 ecosystem.</p>
+            <p>This extension is open source and available on GitHub.</p>
+        </footer>
+    </div>
+</body>
+</html>
